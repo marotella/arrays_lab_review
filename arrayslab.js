@@ -26,7 +26,8 @@ console.log(arrayLength)
 // sample array!
 // The expected output is 7.
 
-
+let lastItem = sampleArray[sampleArray.length-1]
+console.log(lastItem)
 
 //////////////////PROBLEM 4////////////////////
 
@@ -34,6 +35,8 @@ console.log(arrayLength)
 // whole array in the console.
 // The expected output is [2, 4, 6, 8, 10, 12, 1, 3, 5,  7, 42]
 
+sampleArray.push(42)
+console.log(sampleArray)
 
 //////////////////PROBLEM 5////////////////////
 
