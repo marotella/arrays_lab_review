@@ -6,8 +6,8 @@ const sampleArray = [2, 4, 6, 8, 10, 12, 1, 3, 5, 7];
 // "sampleArray". Then, log it to the console.
 // The expected output is 2.
 
-const firstItem = sampleArray[0]
-console.log(firstItem)
+const firstItem = sampleArray[0];
+console.log(firstItem);
 
 //////////////////PROBLEM 2////////////////////
 
@@ -15,8 +15,8 @@ console.log(firstItem)
 // "sampleArray". Then, log it to the console.
 // The expected output is 10.
 
-const arrayLength = sampleArray.length
-console.log(arrayLength)
+const arrayLength = sampleArray.length;
+console.log(arrayLength);
 
 //////////////////PROBLEM 3////////////////////
 
@@ -26,8 +26,8 @@ console.log(arrayLength)
 // sample array!
 // The expected output is 7.
 
-let lastItem = sampleArray[sampleArray.length-1]
-console.log(lastItem)
+let lastItem = sampleArray[sampleArray.length-1];
+console.log(lastItem);
 
 //////////////////PROBLEM 4////////////////////
 
@@ -35,8 +35,8 @@ console.log(lastItem)
 // whole array in the console.
 // The expected output is [2, 4, 6, 8, 10, 12, 1, 3, 5,  7, 42]
 
-sampleArray.push(42)
-console.log(sampleArray)
+sampleArray.push(42);
+console.log(sampleArray);
 
 //////////////////PROBLEM 5////////////////////
 
@@ -44,17 +44,17 @@ console.log(sampleArray)
 // (the one you added in problem 4). Log the array after you are done to make
 // sure that the element has been removed
 // The expected output is [2, 4, 6, 8, 10, 12, 1, 3, 5,  7]
-sampleArray.pop()
-console.log(sampleArray)
+sampleArray.pop();
+console.log(sampleArray);
 
 //////////////////PROBLEM 6////////////////////
 
 // Replace the first and last item in sampleArray with the number 42, then
 // log it to the console.
 // The expected output is [42, 4, 6, 8, 10, 12, 1, 3, 5, 42]
-sampleArray[0] = 42
-sampleArray[sampleArray.length -1] = 42
-console.log(sampleArray)
+sampleArray[0] = 42;
+sampleArray[sampleArray.length -1] = 42;
+console.log(sampleArray);
 
 
 
@@ -87,7 +87,7 @@ let newArray = [];
 for (const index of startArray){
     newArray.push(index + 10)
 }
-console.log(newArray)
+console.log(newArray);
 
 
 //////////////////PROBLEM 9////////////////////
@@ -96,17 +96,21 @@ console.log(newArray)
 let numbers = [];
 
 for (let n = 0; n <=31; n++){
-    numbers.push(n)
+    numbers.push(n);
 }
 
-console.log(numbers)
+console.log(numbers);
 
 //////////////////PROBLEM 10////////////////////
 
 // Fill the "evens" array with even numbers 0-20 using a for loop. Log the result.
 let evens = [];
-
-
+for (let n = 0; n <=20; n ++){
+    if(n % 2 == 0){
+        evens.push(n)
+    }
+}
+console.log(evens)
 //////////////////PROBLEM 11////////////////////
 
 // Fill the countdown array with numbers from 10 to 1 in descending order 
