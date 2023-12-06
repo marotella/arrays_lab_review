@@ -110,14 +110,18 @@ for (let n = 0; n <=20; n ++){
         evens.push(n)
     }
 }
-console.log(evens)
+console.log(evens);
 //////////////////PROBLEM 11////////////////////
 
 // Fill the countdown array with numbers from 10 to 1 in descending order 
 // using a for loop. Log the result.
 
 let countdown = [];
+for ( let n=10; n > 0; n--){
+    countdown.push(n)
+}
 
+console.log(countdown);
 
 //////////////////PROBLEM 12////////////////////
 
