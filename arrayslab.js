@@ -119,7 +119,7 @@ console.log(evens);
 let countdown = [];
 for ( let n=10; n > 0; n--){
     countdown.push(n)
-}
+};
 
 console.log(countdown);
 
@@ -135,7 +135,7 @@ for ( let i = (originalArray.length -1) ; i >= 0; i--){
     reversedArray.push(originalArray[i])
 }
 
-console.log(reversedArray)
+console.log(reversedArray);
 
 
 /// ///////////////PROBLEM 13////////////////////
@@ -145,7 +145,7 @@ console.log(reversedArray)
 // As the variables are set up now, the expected output would be
 // ['apple', 'cherry', 'durian']
 
-const groceryList = ['apple', 'banana', 'cherry', 'durian']
+const groceryList = ['apple', 'banana', 'cherry', 'durian', 'banana'];
 const itemToRemove = 'banana';
 
 // Also try with itemToRemove = 'apricot' and make sure that nothing happens
@@ -155,7 +155,7 @@ for (let i = 0; i < groceryList.length; i++){
         groceryList.splice(i, 1)
     }
 }
-console.log(groceryList)
+console.log(groceryList);
 //////////////////PROBLEM 14////////////////////
 
 // In the function below, loop through the "repeats"" array. 
@@ -169,7 +169,12 @@ console.log(groceryList)
 
 let sum = 0;
 const repeats = [1, 1, 2, 5, 2, 6, 6];
-
+for (let i =0; i<repeats.length; i++){
+    if (repeats[i] === repeats[i-1]){
+        sum = sum + repeats[i]
+    }
+}
+console.log(sum);
 //////////////////PROBLEM 15////////////////////
 
 // In the function below, inputArray is an array of numbers.
