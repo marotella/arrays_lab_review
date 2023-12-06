@@ -184,3 +184,10 @@ console.log(sum);
 
 const inputArray = [1, -2, 3, 5, -8, -13, 21];
 const indexes = [];
+
+for (let num of inputArray){
+    if (num >= 0){
+        indexes.push(inputArray.indexOf(num))
+    }
+}
+console.log(indexes)
