@@ -84,7 +84,10 @@ while (num % 2 == 0){
 
 const startArray = [1, 2, 3, 4];
 let newArray = [];
-
+for (const index of startArray){
+    newArray.push(index + 10)
+}
+console.log(newArray)
 
 
 //////////////////PROBLEM 9////////////////////
