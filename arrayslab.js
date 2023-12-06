@@ -150,8 +150,12 @@ const itemToRemove = 'banana';
 
 // Also try with itemToRemove = 'apricot' and make sure that nothing happens
 // to the grocery list
-
-
+for (let i = 0; i < groceryList.length; i++){
+    if (groceryList[i] === itemToRemove){
+        groceryList.splice(i, 1)
+    }
+}
+console.log(groceryList)
 //////////////////PROBLEM 14////////////////////
 
 // In the function below, loop through the "repeats"" array. 
