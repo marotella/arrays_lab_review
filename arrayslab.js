@@ -52,6 +52,9 @@ console.log(sampleArray)
 // Replace the first and last item in sampleArray with the number 42, then
 // log it to the console.
 // The expected output is [42, 4, 6, 8, 10, 12, 1, 3, 5, 42]
+sampleArray[0] = 42
+sampleArray[sampleArray.length -1] = 42
+console.log(sampleArray)
 
 
 
