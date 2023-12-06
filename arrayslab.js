@@ -95,6 +95,11 @@ console.log(newArray)
 // Fill the "numbers" array with numbers 0-31 using a for loop. Log the result.
 let numbers = [];
 
+for (let n = 0; n <=31; n++){
+    numbers.push(n)
+}
+
+console.log(numbers)
 
 //////////////////PROBLEM 10////////////////////
 
