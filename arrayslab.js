@@ -44,7 +44,8 @@ console.log(sampleArray)
 // (the one you added in problem 4). Log the array after you are done to make
 // sure that the element has been removed
 // The expected output is [2, 4, 6, 8, 10, 12, 1, 3, 5,  7]
-
+sampleArray.pop()
+console.log(sampleArray)
 
 //////////////////PROBLEM 6////////////////////
 
