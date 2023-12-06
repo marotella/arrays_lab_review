@@ -70,6 +70,11 @@ console.log(sampleArray)
 
 let num = 12;
 
+while (num % 2 == 0){
+    console.log(num)
+    num = num / 2
+}
+
 //////////////////PROBLEM 8////////////////////
 
 // Using a for...of loop, add ten to each element in startArray and then push 
