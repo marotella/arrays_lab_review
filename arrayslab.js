@@ -15,7 +15,8 @@ console.log(firstItem)
 // "sampleArray". Then, log it to the console.
 // The expected output is 10.
 
-
+const arrayLength = sampleArray.length
+console.log(arrayLength)
 
 //////////////////PROBLEM 3////////////////////
 
